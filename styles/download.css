@@ -1,0 +1,35 @@
+#download{
+
+  & .card{
+    padding: 3rem 1.5rem 15rem;
+
+    position: relative;
+
+    & > img{
+      position: absolute;
+      bottom: 0;
+      right: -3.5rem;
+
+      width: 14.5rem;
+    }
+
+    & .button{
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (width >= 80em){
+    & .card{
+      padding: 8.75rem 5rem;
+
+      & > div:nth-child(1){
+        max-width: 40rem;
+      }
+
+      & > img{
+        width: 29.125rem;
+      }
+    }
+  }
+}
